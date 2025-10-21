@@ -8,7 +8,8 @@
   <a href="https://huggingface.co/datasets/YirongSun/LLaSO-Eval"><img src="https://img.shields.io/badge/HF%20Dataset-LLaSO--Eval-27ae60.svg" alt="HF Eval"></a>
   <br>
   <a href="https://arxiv.org/abs/2508.15418"><img src="https://img.shields.io/badge/arXiv-2508.15418-B31B1B.svg" alt="arXiv"></a>
-  <a href="https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Instruct"><img src="https://img.shields.io/badge/HuggingFace-Model-ffcc00.svg" alt="HF Model"></a>
+  <a href="https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Align"><img src="https://img.shields.io/badge/HuggingFace-LLaSO Align-ffcc00.svg" alt="HF Model"></a>
+  <a href="https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Instruct"><img src="https://img.shields.io/badge/HuggingFace-LLaSO Instruct-ffcc00.svg" alt="HF Model"></a>
   <a href="https://github.com/EIT-NLP/LLaSO"><img src="https://img.shields.io/github/stars/EIT-NLP/LLaSO?style=social" alt="GitHub Stars"></a>
   <a href="#citation"><img src="https://img.shields.io/badge/Cite-BibTeX-9cf.svg" alt="Cite"></a>
 </p>
@@ -168,7 +169,8 @@ See the llaso/evaluation/metrics/ directory for dedicated metric scripts per tas
 
 | Model               | #Params | Training Data                | Modality Configs        | Normalized Score | Checkpoint          |
 |---------------------|--------:|------------------------------|------------------------|------------------|---------------------|
-| **LLaSO-Base**      | 3.8B    | LLaSO-Align + LLaSO-Instruct (25.5M) | (t,a), (a,t), (a)      | 0.72             | 🤗 [HF link](https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Instruct)        |
+| **LLaSO-Base-Align**      | 3.8B    | LLaSO-Align | (t,a)      | -             | 🤗 [HF link](https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Align)        |
+| **LLaSO-Base-Instruct**      | 3.8B    | LLaSO-Align + LLaSO-Instruct (25.5M) | (t,a), (a,t), (a)      | 0.72             | 🤗 [HF link](https://huggingface.co/YirongSun/LLaSO-Base-3.8B-Instruct)        |
 | *(Future)* TBD | ...    | ...                          | ...                    | ...              | (coming)            |
 
 
